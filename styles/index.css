@@ -1,9 +1,29 @@
+@media only screen and (min-width: 840px) {
+    /* For desktop: */
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 10% 1fr 1fr 1fr 1fr 20%;
     grid-template-areas: "Menu Menu" "item1 item2" "item3 item4" "item5 item6" "item7 item8" "Footer Footer";
     padding: 10px;
+}
+}
+
+@media only screen and (max-width: 840px) {
+    /* For tablets: */
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 20%;
+        grid-template-areas: "Menu" "item1" "item2" "item3" "item4" "item5" "item6" "item7" "item8" "Footer";
+        padding: 10px;
+    }
+    img {
+      max-width: 80%;
+      max-height: auto;
+      min-width: 240px;
+      min-height: auto;
+    }
 }
   
   .Menu {
@@ -45,3 +65,8 @@
       background: lightblue; 
 
   }
+
+  body {
+      background: lightcyan;
+  }
+ 
