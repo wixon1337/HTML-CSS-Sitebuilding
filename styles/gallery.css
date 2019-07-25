@@ -2,10 +2,14 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1200px;
-  max-height: 768px;
+  max-width: 1680px;
+  max-height: auto;
+  min-width: 240px;
+  min-height: auto;
   position: relative;
-  margin: auto;
+  display: block;
+  justify-content: center;
+  align-content: center;
 }
 
 /* Hide the images by default */
