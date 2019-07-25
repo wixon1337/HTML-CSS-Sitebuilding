@@ -1,0 +1,27 @@
+html,
+body {
+    background-color: #cc9360;
+}
+.container {
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+​
+.container * {
+  border: 1px solid red;
+  position: relative;
+}
+​
+.container *:after {
+  content: attr(class);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+​
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
