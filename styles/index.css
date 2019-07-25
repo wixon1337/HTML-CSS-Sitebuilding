@@ -1,6 +1,6 @@
 :root {
-    --color-primary: lightblue;
-    --color-secondary: lightcyan;
+    --color-primary: #29a8ab;
+    --color-secondary: #cc9360;
 }
 
 @media only screen and (min-width: 840px) {
@@ -79,3 +79,7 @@
       background: var(--color-secondary);
       margin: 10px;
   }
+
+button {
+    background: var(--color-primary);
+}
