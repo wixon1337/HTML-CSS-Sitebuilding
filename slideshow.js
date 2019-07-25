@@ -1,4 +1,4 @@
-var slideIndex = 3;
+var slideIndex = 0;
 
 // Next/previous controls
 function plusSlides (n) {
