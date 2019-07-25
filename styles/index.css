@@ -1,3 +1,8 @@
+:root {
+    --color-primary: lightblue;
+    --color-secondary: lightcyan;
+}
+
 @media only screen and (min-width: 840px) {
     /* For desktop: */
 .grid-container {
@@ -7,6 +12,7 @@
     grid-template-rows: 10% 1fr 1fr 1fr 1fr 20%;
     grid-template-areas: "Menu Menu" "item1 item2" "item3 item4" "item5 item6" "item7 item8" "Footer Footer";
     padding: 5px;
+    font-size: 1em;
 }
 }
 
@@ -19,6 +25,7 @@
         grid-template-rows: 10% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 20%;
         grid-template-areas: "Menu" "item1" "item2" "item3" "item4" "item5" "item6" "item7" "item8" "Footer";
         padding: 5px;
+        font-size: 1em;
     }
     img {
       max-width: 80%;
@@ -34,7 +41,7 @@
     grid-template-rows: 1fr;
     grid-template-areas: ". . . . .";
     grid-area: Menu;
-    background: lightblue;
+    background: var(--color-primary);
     padding: 10px;
   }
   
@@ -64,11 +71,11 @@
     
   .Footer { 
       grid-area: Footer;
-      background: lightblue; 
+      background: var(--color-primary); 
 
   }
 
   body {
-      background: lightcyan;
+      background: var(--color-secondary);
       margin: 10px;
   }
