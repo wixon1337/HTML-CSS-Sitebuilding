@@ -2,6 +2,7 @@
     /* For desktop: */
 .grid-container {
     display: grid;
+    border: 1px black;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 10% 1fr 1fr 1fr 1fr 20%;
     grid-template-areas: "Menu Menu" "item1 item2" "item3 item4" "item5 item6" "item7 item8" "Footer Footer";
@@ -13,6 +14,7 @@
     /* For tablets: */
     .grid-container {
         display: grid;
+        border: 1px black;
         grid-template-columns: 1fr;
         grid-template-rows: 10% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 20%;
         grid-template-areas: "Menu" "item1" "item2" "item3" "item4" "item5" "item6" "item7" "item8" "Footer";
@@ -69,4 +71,3 @@
   body {
       background: lightcyan;
   }
- 
